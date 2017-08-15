@@ -12,6 +12,8 @@
 		303354E61EF6894800816FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303354E41EF6894800816FC1 /* Main.storyboard */; };
 		303354E81EF6894800816FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303354E71EF6894800816FC1 /* Assets.xcassets */; };
 		303354EB1EF6894800816FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303354E91EF6894800816FC1 /* LaunchScreen.storyboard */; };
+		303354F31EF68A3400816FC1 /* UIVIew+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303354F21EF68A3400816FC1 /* UIVIew+extension.swift */; };
+		303354F51EF697E200816FC1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303354F41EF697E200816FC1 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		303354E71EF6894800816FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303354EA1EF6894800816FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		303354EC1EF6894800816FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303354F21EF68A3400816FC1 /* UIVIew+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+extension.swift"; sourceTree = "<group>"; };
+		303354F41EF697E200816FC1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				303354E01EF6894800816FC1 /* AppDelegate.swift */,
+				303354F21EF68A3400816FC1 /* UIVIew+extension.swift */,
 				303354E21EF6894800816FC1 /* ViewController.swift */,
+				303354F41EF697E200816FC1 /* TableViewController.swift */,
 				303354E41EF6894800816FC1 /* Main.storyboard */,
 				303354E71EF6894800816FC1 /* Assets.xcassets */,
 				303354E91EF6894800816FC1 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				303354E31EF6894800816FC1 /* ViewController.swift in Sources */,
 				303354E11EF6894800816FC1 /* AppDelegate.swift in Sources */,
+				303354F31EF68A3400816FC1 /* UIVIew+extension.swift in Sources */,
+				303354F51EF697E200816FC1 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HarryCodes.BouncyButtonAndTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HarryCodes.BouncyButtonAndTable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -312,6 +320,7 @@
 				303354F11EF6894800816FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
